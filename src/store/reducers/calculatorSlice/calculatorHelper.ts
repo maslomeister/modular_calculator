@@ -134,7 +134,7 @@ export const registerAction = (state: CalculatorState, action: string) => {
 
     case ",":
       if (state.currentValue) {
-        if (Number.isInteger(Number(state.currentValue))) {
+        if (state.currentValue.indexOf(".") === -1) {
           state.currentValue += ".";
           state.decimalSet = true;
 
