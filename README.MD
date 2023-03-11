@@ -3,7 +3,7 @@
 Небольшое приложение с drag and drop функционалом
 
 ## Превью
-
+![preview](https://github.com/maslomeister/modular_calculator/blob/master/preview.png?raw=true)
 
 
 ### [Open deployment](https://maslomeister.github.io/modular_calculator/)
